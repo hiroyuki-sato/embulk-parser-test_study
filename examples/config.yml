@@ -1,0 +1,8 @@
+in:
+  type: file
+  path_prefix: examples/test.txt
+  parser:
+    type: test_study
+out:
+  type: stdout 
+
