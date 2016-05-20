@@ -49,7 +49,7 @@ public class TestStudyParserPlugin
         columns.add(new ColumnConfig("col1",   STRING, config));
         columns.add(new ColumnConfig("col2",   STRING, config));
         columns.add(new ColumnConfig("col3",   LONG, config));
-        
+
         Schema schema = new SchemaConfig(columns).toSchema();
 
         control.run(task.dump(), schema);
